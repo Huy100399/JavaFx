@@ -75,7 +75,7 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
+            <state relative-caret-position="367">
               <caret line="171" column="1" lean-forward="true" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -341,12 +341,12 @@
       <workItem from="1523430854343" duration="246000" />
       <workItem from="1523431395679" duration="209000" />
       <workItem from="1523439178906" duration="373000" />
-      <workItem from="1523440550305" duration="3581000" />
+      <workItem from="1523440550305" duration="4186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50372000" />
+    <option name="totallyTimeSpent" value="50977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -362,7 +362,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14236706" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.14236706" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32840723" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -654,7 +654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
+        <state relative-caret-position="367">
           <caret line="171" column="1" lean-forward="true" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
