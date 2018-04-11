@@ -20,6 +20,7 @@ public class Alear_ extends Application {
     @Override
     public void start(Stage primaryStage) {
 
+        // Alear mac dinh luon co 1 buttontype thuoc loai ok_done ()
         Stage win = new Stage();
         win.setResizable(true);
         win.setMinHeight(300);

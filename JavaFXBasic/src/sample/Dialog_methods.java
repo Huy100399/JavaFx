@@ -23,6 +23,7 @@ public class Dialog_methods extends Application {
     public void start(Stage primaryStage) {
 
         Stage win = new Stage();
+        // dialog mac dinh khi tao ra se k co getButtonTypes nao tren no ma chi ca 1 stage trong
         Dialog<Pair<String,String>> dialog = new Dialog<>();
 
 

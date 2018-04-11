@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="grippane" alignment="center" hgap="10" prefHeight="484.0" prefWidth="599.0" vgap="10" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="361.0" minHeight="361.0" prefHeight="361.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="392.0" prefWidth="589.0" GridPane.columnIndex="1">
+         <children>
+            <TextArea fx:id="screen_textarea" layoutX="35.0" layoutY="14.0" prefHeight="73.0" prefWidth="511.0" stylesheets="@stylesheet.css" />
+            <Button fx:id="cot_button" layoutX="131.0" layoutY="180.0" mnemonicParsing="false" onAction="#cot" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="cot" />
+            <Button fx:id="pow" layoutX="34.0" layoutY="114.0" mnemonicParsing="false" onAction="#pow" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="^" />
+            <Button fx:id="closeparentheses_button" layoutX="220.0" layoutY="114.0" mnemonicParsing="false" onAction="#closeparentheses" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text=")" />
+            <Button fx:id="percent_button" layoutX="311.0" layoutY="114.0" mnemonicParsing="false" onAction="#percent" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="\%" />
+            <Button fx:id="AC_button" layoutX="494.0" layoutY="114.0" mnemonicParsing="false" onAction="#AC" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="AC" />
+            <Button fx:id="div_button" layoutX="494.0" layoutY="180.0" mnemonicParsing="false" onAction="#div" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" stylesheets="@stylesheet.css" text="/" />
+            <Button fx:id="multi_button" layoutX="495.0" layoutY="243.0" mnemonicParsing="false" onAction="#mul" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="X" />
+            <Button fx:id="sub_button" layoutX="494.0" layoutY="302.0" mnemonicParsing="false" onAction="#sub" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="-" />
+            <Button fx:id="nice_buton" layoutX="403.0" layoutY="180.0" mnemonicParsing="false" onAction="#nice" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="9" />
+            <Button fx:id="sum_button" layoutX="494.0" layoutY="359.0" mnemonicParsing="false" onAction="#sum" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="+" />
+            <Button fx:id="eight_button" layoutX="311.0" layoutY="180.0" mnemonicParsing="false" onAction="#eight" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="8" />
+            <Button fx:id="seven_button" layoutX="220.0" layoutY="180.0" mnemonicParsing="false" onAction="#seven" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="7" />
+            <Button fx:id="sin_button" layoutX="131.0" layoutY="243.0" mnemonicParsing="false" onAction="#sin" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="sin(x)" />
+            <Button layoutX="35.0" layoutY="180.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="lnv(x)" />
+            <Button layoutX="35.0" layoutY="243.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="pi" />
+            <Button fx:id="cos_button" layoutX="131.0" layoutY="302.0" mnemonicParsing="false" onAction="#cos" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="cos(x)" />
+            <Button fx:id="four_button" layoutX="221.0" layoutY="243.0" mnemonicParsing="false" onAction="#four" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="4" />
+            <Button fx:id="five_button" layoutX="311.0" layoutY="243.0" mnemonicParsing="false" onAction="#five" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="5" />
+            <Button fx:id="six_button" layoutX="403.0" layoutY="243.0" mnemonicParsing="false" onAction="#six" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="6" />
+            <Button fx:id="three_button" layoutX="403.0" layoutY="302.0" mnemonicParsing="false" onAction="#three" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="3" />
+            <Button fx:id="two_button" layoutX="311.0" layoutY="302.0" mnemonicParsing="false" onAction="#two" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="2" />
+            <Button fx:id="one_button" layoutX="221.0" layoutY="302.0" mnemonicParsing="false" onAction="#one" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="1" />
+            <Button fx:id="tan_button" layoutX="131.0" layoutY="358.0" mnemonicParsing="false" onAction="#tan" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="tan(x)" />
+            <Button layoutX="35.0" layoutY="302.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="e" />
+            <Button fx:id="result_button" layoutX="403.0" layoutY="359.0" mnemonicParsing="false" onAction="#result" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="=" />
+            <Button fx:id="dot_button" layoutX="312.0" layoutY="359.0" mnemonicParsing="false" onAction="#dot" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="." />
+            <Button fx:id="zero_button" layoutX="222.0" layoutY="358.0" mnemonicParsing="false" onAction="#zero" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="0" />
+            <Button fx:id="ans_button" layoutX="34.0" layoutY="358.0" mnemonicParsing="false" onAction="#ans" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="ANS" />
+            <Button fx:id="openparentheses_button" layoutX="131.0" layoutY="114.0" mnemonicParsing="false" onAction="#openparentheses" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="(" />
+            <Button fx:id="DE_button1" layoutX="403.0" layoutY="114.0" mnemonicParsing="false" onAction="#delete" prefHeight="32.0" prefWidth="55.0" styleClass="stylebutton" text="DE" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
