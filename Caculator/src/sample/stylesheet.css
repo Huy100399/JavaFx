@@ -10,6 +10,7 @@
 {
     -fx-border-width: 5px;
     -fx-background-color: rgba(12, 6, 9, 0.83);
+
 }
 
 .button
@@ -18,3 +19,4 @@
     -fx-font-family: VnArial;
     -fx-font-size: 15px;
 }
+
